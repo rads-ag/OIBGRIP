@@ -1,0 +1,40 @@
+body {
+    color: white;
+    background-color: black;
+
+    max-width: 50%;
+    margin: auto;
+}
+
+.image {
+    margin-top: 15px;
+    display: flex;
+}
+
+.name {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.top {
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.imagee {
+    width: 300px;
+    height: 200px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    background-color: aqua;
+
+}
